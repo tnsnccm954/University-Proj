@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 400px;
+    font-family: 'Mitr', sans-serif;
+}
+body{
+  display: flex;
+  height: 100vh;
+  background-color: #333;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.login{
+  height: 100vh;
+  background-color: #333;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 50px;
+}.containerlogin{
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 50px;
+}
+.nav{
+  list-style: none;
+  color: rgb(255, 255, 255);
+  width: fit-content;
+  border-radius: 20px;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: left;
+  background: #1b3d88;
+ 
+}
+.nav ul {
+  margin: 1rem;
+}
+.nav ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.market{
+  margin: auto auto auto 2rem;
+  border-radius: 20px;
+  background: #3f247e;
+}
+.weblogo img{
+  width: 8rem;
+}
+div.weblogo{
+  height: fit-content;
+  width: fit-content;
+  margin:1rem auto 1rem auto;
+}
+.marketlogo{
+  width: 50px;
+}
+caption{
+  margin-top: 1rem;
+}
+table{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-spacing: 1rem;
+}
+.market th,.market td {
+    text-align: center;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: white;
+  }
+select{
+    color: white;
+    background-color: rgb(192, 192, 192);
+    border-radius: 20px;
+    border: 0px;
+    padding: 0.5rem;
+    padding-left: 15px;
+}
+.btn{
+  width: 6rem;
+  text-align: center;
+  margin:auto 0.5rem auto 0.5rem;
+    border-radius: 20px;
+    border: 0px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(192, 192, 192);
+    
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+input[type=text]{
+  background-color: rgb(192, 192, 192);
+  border-radius: 20px;
+  border: 0px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 10px;
+}
+input[type=password]{
+  background-color: rgb(192, 192, 192);
+  border-radius: 20px;
+  border: 0px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 10px;
+}
+input[type=submit]{
+    margin: auto;
+    border-radius: 20px;
+    border: 0px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+input[type=button]{
+    border-radius: 20px;
+    border: 0px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+input[type=date]{
+  width: 10rem;
+  text-align: center;
+  border-radius: 20px;
+  border: 0px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+form{
+    padding: 0rem 1rem 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+  text-align: center;
+  font-size: 2rem;
+}
+.middle-btn{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  width: fit-content;
+  margin:0.5rem auto 0.5rem auto;
+}
+.middle-btn input{
+  width: 8rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.toptable{
+  color: white;
+  padding: 1rem;
+  width: fit-content;
+  background-color: #333;
+  border-radius: 20px;
+}
+.nonform{
+  margin: 1rem 2rem 1rem 2rem;
+}
+.nonform th,.nonform td {
+  text-align: center;
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: white;
+}
+table.list_optiontable {
+  text-align: center;
+  border-radius: 0px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #333;
+}
+.list_optiontable tr{
+  background-color:white;
+}
+.list_optiontable tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+.list_optiontable tr:hover {background-color: #ddd;}
+.list_optiontable td,.list_optiontable th {
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding: 1rem;
+}
+table.list_optiontable th {
+  border-radius: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #3b3b3b;
+  color: white;
+}
+/*
+table.list_optiontable{
+  min-width: 100%;
+  border-spacing: 0rem;
+  border-radius: 10px 10px 0px 0px;
+  background: #333;
+
+}
+tr{
+  background-color: black !important;
+}
+tr:nth-child(even){
+  background-color: black;
+}
+tr:hover {
+  background-color: #ddd;
+}
+table.list_optiontable th{
+  text-align: center;
+    color: white;
+    border-radius:0px;
+    padding: 0.5rem;
+    background: #333;
+}
+
+table.list_optiontable td{
+  text-align: center;
+  color: white;
+  border-radius:0px;
+  padding: 0.5rem;
+  background: rgb(126, 126, 126);
+  
+}*/
